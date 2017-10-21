@@ -2,6 +2,7 @@
 from flask import Flask
 import paho.mqtt.client as mqtt
 import os
+from flask import request
 
 mqttc = mqtt.Client()
 app = Flask(__name__)
@@ -16,6 +17,9 @@ def getRequest():
 def postRequest():
     return "post works"
 
+@app.route('/webhook', methods=['GET'])
+def getToPostRequest():
+    request.args.get ("hub.challenge")
 
 
 if __name__ == '__main__':
