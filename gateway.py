@@ -14,7 +14,7 @@ def getRequest():
 
 @app.route('/webhook', methods=['POST'])
 def postRequest():
-    mqttc.publish( "my message")
+    return "post works"
 
 
 
