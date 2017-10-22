@@ -24,10 +24,10 @@ def getToPostRequest():
 def postRequestTofb():
     content = request.get_json()
     if content['entry'][0]['changes'][0]['value']['item'] == 'like':
-        mqttc.publish('fb-posts-updates',json.dumps((
+        mqttc.publish('fb-posts-updates',json.dumps(
                     int(content['entry'][0]['time']),'LIKE',
-                    content['entry'][0]['changes'][0]['value']['user_id']).__dict__))
-    return ''
+                    content['entry'][0]['changes'][0]['value']['sender_id']))
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
