@@ -30,4 +30,4 @@ def postRequestTofb():
 
 
 if __name__ == '__main__':
-    app.run(host='m10.cloudmqtt.com', port=int(os.environ.get('PORT', 17954)))
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 17954)))
