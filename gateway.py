@@ -31,7 +31,7 @@ def postRequestTofb():
                     int(content['entry'][0]['time']),'LIKE',
                     content['entry'][0]['changes'][0]['value']['sender_id']))
         mqttc.disconnect()
-
+    return ""
 
 
 if __name__ == '__main__':
