@@ -25,7 +25,7 @@ def postRequestTofb():
     content = request.get_json()
     if content['entry'][0]['changes'][0]['value']['item'] == 'like':
         mqttc.username_pw_set(os.environ.get("MQTT_USER", ''), os.environ.get("MQTT_PWD", ''))
-        mqttc.connect(os.environ.get("MQTT_HOST", ''), int(os.environ.get("MQTT_PORT", 	17954)))
+        mqttc.connect(os.environ.get("MQTT_HOST", ''), int(os.environ.get("MQTT_PORT", 	5001)))
         mqttc.publish('fb-posts-updates',json.dumps(
                     int(content['entry'][0]['time']),'LIKE',
                     content['entry'][0]['changes'][0]['value']['sender_id']))
@@ -34,4 +34,4 @@ def postRequestTofb():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT',	17954 )))
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT',	5000)))

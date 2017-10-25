@@ -26,8 +26,8 @@
       <file leaf-file-name="gateway.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gateway.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5511551">
-              <caret line="26" column="94" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="94" />
+            <state vertical-scroll-proportion="0.83168316">
+              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
               <folding>
                 <element signature="e#19#42#0" expanded="true" />
               </folding>
@@ -395,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5511551">
-          <caret line="26" column="94" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="94" />
+        <state vertical-scroll-proportion="0.83168316">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
           <folding>
             <element signature="e#19#42#0" expanded="true" />
           </folding>
