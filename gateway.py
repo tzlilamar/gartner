@@ -27,9 +27,7 @@ def postRequestTofb():
         mqttc = paho.Client()
         mqttc.username_pw_set(os.environ.get("MQTT_USER", ''), os.environ.get("MQTT_PWD", ''))
         mqttc.connect(os.environ.get("MQTT_HOST", ''), int(os.environ.get("MQTT_PORT", 	5001)))
-        mqttc.publish('fb-posts-updates',json.dumps(
-                    int(content['entry'][0]['time']),'LIKE',
-                    content['entry'][0]['changes'][0]['value']['sender_id']))
+        mqttc.publish('fb-posts-updates', 'Got like!')
         mqttc.disconnect()
     return ""
 

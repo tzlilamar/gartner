@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/gateway.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6633663">
-              <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
               <folding>
                 <element signature="e#19#42#0" expanded="true" />
               </folding>
@@ -396,7 +396,7 @@
     <entry file="file://$PROJECT_DIR$/gateway.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6633663">
-          <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding>
             <element signature="e#19#42#0" expanded="true" />
           </folding>
